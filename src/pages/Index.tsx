@@ -12,63 +12,63 @@ const Index = () => {
     <>
       <Helmet>
         {/* Titel & Meta Description */}
-        <title>Barbershop Prenzlauer Berg | The Gentleman's Cut</title>
+        <title>Friseursalon Bochum | Hair Loft</title>
         <meta
           name="description"
-          content="Besuche unseren Premium Barbershop The Gentleman's Cut in Berlin Prenzlauer Berg für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
+          content="Besuche unseren Premium Friseursalon Hair Loft in Bochum für erstklassige Haarschnitte, Bartpflege und individuelle Styles. Jetzt Termin buchen!"
         />
         <meta
           name="keywords"
-          content="Barbershop, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Berlin, Prenzlauer Berg"
+          content="Friseursalon, Herrenfriseur, Haarschnitt, Bartpflege, Rasur, Bochum"
         />
-        <link rel="canonical" href="https://gentlemanscut.de" />
+        <link rel="canonical" href="https://hairloft-bochum.de" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta property="og:title" content="Hair Loft | Premium Friseursalon Bochum" />
         <meta
           property="og:description"
-          content="Erstklassige Haarschnitte und Bartpflege für den modernen Gentleman in Berlin Prenzlauer Berg."
+          content="Erstklassige Haarschnitte und Bartpflege für den modernen Look in Bochum im Hair Loft."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://gentlemanscut.de" />
-        <meta property="og:image" content="https://gentlemanscut.de/images/og-image.png" />
+        <meta property="og:url" content="https://hairloft-bochum.de" />
+        <meta property="og:image" content="https://hairloft-bochum.de/images/og-image.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="The Gentleman's Cut | Premium Barbershop Berlin" />
+        <meta name="twitter:title" content="Hair Loft | Premium Friseursalon Bochum" />
         <meta
           name="twitter:description"
-          content="Erleben Sie erstklassige Haarschnitte und Bartpflege für den modernen Gentleman."
+          content="Erleben Sie erstklassige Haarschnitte und Bartpflege im Hair Loft Bochum."
         />
-        <meta name="twitter:image" content="https://gentlemanscut.de/images/og-image.png" />
+        <meta name="twitter:image" content="https://hairloft-bochum.de/images/og-image.png" />
 
         {/* Schema.org LocalBusiness */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Barbershop",
-            "name": "The Gentleman's Cut",
-            "image": "https://gentlemanscut.de/images/logo.png",
+            "@type": "HairSalon",
+            "name": "Hair Loft",
+            "image": "https://hairloft-bochum.de/images/logo.png",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Straße 12",
-              "addressLocality": "Berlin",
-              "postalCode": "10115",
+              "streetAddress": "Musterstraße 123",
+              "addressLocality": "Bochum",
+              "postalCode": "44787",
               "addressCountry": "DE"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "52.5200",
-              "longitude": "13.4050"
+              "latitude": "51.4818",
+              "longitude": "7.2162"
             },
-            "url": "https://gentlemanscut.de",
-            "telephone": "+49 30 1234567",
+            "url": "https://hairloft-bochum.de",
+            "telephone": "+49 234 1234567",
             "openingHours": "Mo-Fr 09:00-19:00, Sa 09:00-17:00",
             "priceRange": "€€",
-            "servesCuisine": "Barbershop Services",
+            "servesCuisine": "Friseur Services",
             "sameAs": [
-              "https://www.facebook.com/gentlemanscut",
-              "https://www.instagram.com/gentlemanscut"
+              "https://www.facebook.com/hairloftbochum",
+              "https://www.instagram.com/hairloftbochum"
             ]
           })}
         </script>
